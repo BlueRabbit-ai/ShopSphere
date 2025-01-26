@@ -39,3 +39,62 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/ShopSphere.git
+2. Install dependencies
+Navigate into your project folder:
+
+bash
+Kopieren
+Bearbeiten
+cd ShopSphere
+Install the required dependencies:
+
+bash
+Kopieren
+Bearbeiten
+npm install
+3. Set up environment variables
+Create a .env.local file in the root of your project and add your Stripe keys and any other necessary environment variables (e.g., NEXT_PUBLIC_STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, etc.).
+
+bash
+Kopieren
+Bearbeiten
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your-public-key
+STRIPE_SECRET_KEY=your-secret-key
+4. Start the development server
+Run the following command to start your local development server:
+
+bash
+Kopieren
+Bearbeiten
+npm run dev
+You should now be able to visit the site at http://localhost:3000.
+
+Usage
+Once the application is set up locally, you can start exploring the e-commerce site. Add items to your cart, browse products by category, and complete secure purchases via Stripe.
+
+Try the Features
+Use the search bar to find products.
+Apply filters to narrow down your product selection.
+Toggle between light and dark mode for a personalized experience.
+Technologies Used
+Next.js: Framework for building fast, scalable, and server-side-rendered web applications.
+React: JavaScript library for building user interfaces.
+Stripe: Payment processing API for secure transactions.
+Tailwind CSS: Utility-first CSS framework for responsive and modern design.
+Node.js: JavaScript runtime used for backend services.
+GitHub: Version control and collaboration platform.
+Contributing
+We welcome contributions to ShopSphere! If you'd like to contribute, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature-name).
+Make your changes.
+Commit your changes (git commit -m 'Add feature').
+Push your changes to your fork (git push origin feature/your-feature-name).
+Open a pull request to the main repository.
+License
+This project is free to use and is licensed under the MIT License.
+
+vbnet
+Kopieren
+Bearbeiten
