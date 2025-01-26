@@ -39,40 +39,33 @@ Clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/your-username/ShopSphere.git
-2. Install dependencies
+
+### 2. **Install dependencies**
 Navigate into your project folder:
 
-bash
-Kopieren
-Bearbeiten
+```bash
 cd ShopSphere
 Install the required dependencies:
 
-bash
-Kopieren
-Bearbeiten
+```bash
 npm install
-3. Set up environment variables
+### 3. **Set up environment variables**
 Create a .env.local file in the root of your project and add your Stripe keys and any other necessary environment variables (e.g., NEXT_PUBLIC_STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, etc.).
 
-bash
-Kopieren
-Bearbeiten
+```bash
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your-public-key
 STRIPE_SECRET_KEY=your-secret-key
-4. Start the development server
+### 4. **Start the development server**
 Run the following command to start your local development server:
 
-bash
-Kopieren
-Bearbeiten
+```bash
 npm run dev
 You should now be able to visit the site at http://localhost:3000.
 
-Usage
+### **Usage** 
 Once the application is set up locally, you can start exploring the e-commerce site. Add items to your cart, browse products by category, and complete secure purchases via Stripe.
 
-Try the Features
+### **Try the Features**
 Use the search bar to find products.
 Apply filters to narrow down your product selection.
 Toggle between light and dark mode for a personalized experience.
@@ -86,15 +79,11 @@ GitHub: Version control and collaboration platform.
 Contributing
 We welcome contributions to ShopSphere! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
+### **Fork the repository**
 Create a new branch (git checkout -b feature/your-feature-name).
 Make your changes.
 Commit your changes (git commit -m 'Add feature').
 Push your changes to your fork (git push origin feature/your-feature-name).
 Open a pull request to the main repository.
-License
+### **License**
 This project is free to use and is licensed under the MIT License.
-
-vbnet
-Kopieren
-Bearbeiten
